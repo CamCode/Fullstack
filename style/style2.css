@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+}
+.title{
+    font-family: "Muli", sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #43525A;
+}
+p{
+    font-family: "Muli", sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #43525A;
+    line-height: 15px;
+}
+.button_primary{
+    font-family: "Muli", sans-serif;
+    color: white;
+    font-size: 12px;
+    display: block;
+    padding: 5px 15px;
+    background-color: #43525A;
+    margin-top: 20px;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.container .main_bg{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-image: url(../assets/music1.jpg);
+    background-position: 31% 36%;
+}
+.container .main_bg nav{
+    width: 80%;
+    margin: auto;
+    display: block;
+    height: 50px;
+    background-color:transparent;
+}
+nav > div {
+    display: inline-block;
+    width: 36%;
+    text-align: center;
+    margin:0px;
+    height: 100%;
+    vertical-align: top;
+}
+nav .items{
+    padding-top: 15px;
+}
+nav .items a{
+    display: inline-block;
+    font-family: "Muli", sans-serif;
+    color: #43525A;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55)
+}
+nav .items a:hover{
+    transform: translateY(-0.35714rem);
+    color:palevioletred;
+}
+nav .logo{
+    width: 26%;
+    text-align: center;
+}
+nav .logo img{
+    width: 50%;
+}
+.container .main_bg section{
+    width: 80%;
+    margin: auto;
+}
+.container .main_bg section .wrp_txt{
+    width: 30%;
+    height: 38%;
+    margin: 10% 30px;
+    font-family: "Muli", sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px;
+}
+.container .main_bg section .wrp_txt .btn_wrp{
+    position: relative;
+}
+.container .main_bg section .wrp_txt a{
+    margin-top:65px;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55)
+}
+.container .main_bg section .wrp_txt .button_primary{
+    position: absolute;
+    top: 15px;
+    left: 115px;
+    z-index: 1;
+    padding:5px 30px;
+    display: inline-block;
+}
+.container .main_bg section .wrp_txt .button_primary:hover{
+    left:122px;
+}
+.container .main_bg section .wrp_txt .button_bg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    text-decoration: none;
+    background-color:palevioletred;
+    padding: 20px 10px;
+    color: white;
+    z-index: 2;
+    justify-content: spa
+}
+.container .main_bg section .wrp_txt .button_bg:hover{
+    padding: 22px 12px;
+}
+.container .wrapper{
+    width: 80%;
+    margin: auto;
+}
+.container .wrapper  section{
+    width: 100%;
+    margin: auto;
+    height: 400px;
+}
+.container .wrapper section:first-child{
+    background-color: white;
+    margin-top: -50px;
+    border: 1px solid #ccc;
+}
+.container .wrapper section:first-child .img_wr{
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+    display: inline-block;
+    margin:0px;
+    vertical-align: middle;
+}
+.container .wrapper section:first-child .img_wr img{
+    width: 100%;
+}
+.container .wrapper section:first-child .txt_wr{
+    width: 55%;
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0px;
+    padding: 15px 30px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 480px) {
+
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 1024px) {
+
+}
+@media (min-width: 1200px) {
+
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+html {
+	font-family: 'Questrial', sans-serif;
+}
+.text>p {
+	color: green;
+	background-color: red;
+	margin: 10px;
+	width: 80%;
+}
+.text~p {
+    color:palevioletred;
+}
+.text+p {
+	color: purple;
+}
+.ejemplo{
+    height: 200px;
+    width: 300px;
+    border:1px solid gray;
+    margin: 10px;
+    background: yellow;
+}
+.ej1{
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+}
+.ej2{
+    overflow: scroll;
+    vertical-align: middle;
+    display: inline;
+}
+.ej3{  
+    overflow: auto;
+    display:block;
+}
+
+.pos{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    background: green;
+}
+.pos .circle{
+    background: plum;
+    border-radius: 50%;
+    position: fixed;
+    top:40px;
+    left:60px;
+    height: 100px;
+    width: 100px;
+}
